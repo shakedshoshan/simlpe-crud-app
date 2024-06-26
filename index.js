@@ -93,7 +93,7 @@ app.use("/api/product", productRoute);
 // })
 mongoose
   .connect(
-   SECRET_MONGODB_URI,
+    "mongodb+srv://shakedshoshan:771U2HuEZSRsGNyt@backenddb.pln6t9i.mongodb.net/?retryWrites=true&w=majority&appName=backendDB"
   )
   .then(() => {
     console.log("Connected to database!");
